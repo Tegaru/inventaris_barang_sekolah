@@ -1,0 +1,310 @@
+body {
+	font-family: 'Poppins', sans-serif;
+/*	background-color: #F5F5F5;*/
+/*	background-color: #FFFFFF;*/
+/*	font-family: 'Quicksand', sans-serif;*/
+/*	background-color: green;*/
+	display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+    margin: 0;
+}
+
+.navbar {
+	background-color: #6A68DE;
+}
+.navbar-brand {
+	font-weight: 700;
+	font-size: 20px;
+	color: #FFFFFF;
+}
+
+
+.nav-link.active {
+	font-size: 16px;
+	font-weight: 700;
+}
+.nav-link {
+	font-size: 16px;
+	font-weight: 400;
+	color: #FFFFFF;
+}
+.button-masuk {
+	width: 100px;
+	height: 38px;
+	background-color: #FFFFFF;
+	color: #6A68DE;
+	border: none;
+	border-radius: 15px;
+	font-size: 16px;
+	font-weight: 700;
+}		
+#hero {
+/*	height: 70px;*/
+	width: 100%;
+	flex: 1;
+}
+
+
+.hero-tagline h1 {
+	color: #6A68DE;
+	font-weight: 600;
+	margin-top: 130px;
+}
+
+.hero-tagline p {
+	color: #6A68DE;
+	font-weight: 400;
+	text-align: justify;
+	width: 85%;
+}
+
+footer {
+	background-color: #6A68DE;
+  	color: #FFFFFF;
+  	text-align: center;
+  	height: 50px;
+  	margin-top: 29px;
+  }
+
+.kontak-tagline h2 {
+	color: #6A68DE;
+	font-weight: 700;
+	text-align: center;
+	width: 80%;
+	margin-top: 30%;
+
+}
+.kontak-tagline p {
+	color: #6A68DE;
+	font-weight: 400;
+	text-align: justify;
+	width: 100%;
+}
+.kontak {
+	border: 1px solid;
+	border-radius: 15px;
+	border-color: #6A68DE;
+	margin: 6px;
+}
+.kontak-group {
+	color: #6A68DE;
+	margin-top: 5px;
+	font-weight: 500;
+}
+.kontak-control {
+	font-size: 14px;
+	width: 100%;
+	border-radius: 10px;
+}
+
+.button-kontak {
+	margin-top: 20px;
+	color: #FFFFFF;
+	background-color: #6A68DE;
+	border: none;
+	border-radius: 6px;
+	padding: 5px;
+	width: 85px;
+	height: 35px;
+}
+
+.utama {
+	background-color: #6A68DE;
+	box-shadow: 5px 20px #000000;
+}
+.container.login {
+	margin-top: 90px;
+	background-color: #FFFFFF;
+	border-radius: 5px;
+	width: 740px;
+	height: 450px;
+}
+
+.img-login {
+	width: 355px;
+	height: 435px;
+}
+
+.btn-login {
+	border: none;
+	margin-top: 20px;
+	padding: 5px;
+	border-radius: 8px;
+	background-color: #6A68DE;
+	color: #FFFFFF;
+	width: 100%;
+}
+
+.judul-login {
+	color: #6A68DE;
+	text-align: center;
+	margin-top: 10px;
+
+}
+.p-login {
+	width: 110%;
+	font-size: 15px;
+
+}
+
+.logo-login {
+	display: center;
+}
+
+.login-control {
+	background-color:#ECECEC ;
+	border-radius: 8px;
+}
+
+.button-keluar {
+	margin-top: -2px;
+	color: #6A68DE;
+	background-color: #FFFFFF;
+	border: none;
+	border-radius: 12px;
+	padding: 5px;
+	width: 80px;
+	margin-right: 45px;
+	font-weight: 600;
+}
+
+footer.footer-admin {
+	color: #6A68DE;
+	background-color: #FFFFFF;
+
+}
+
+.card {
+	height: 300px;
+	margin-top: 30px;
+	color: #6A68DE;
+	border-color: #6A68DE;
+}
+
+.card-body {
+	margin-top: 60px;
+	text-align: center;
+	color: #6A68DE;
+}
+
+.card-title {
+	margin-bottom: 50px;
+	font-size: 50px;
+}
+.dashboard {
+	color: #6A68DE;
+}
+
+.footer-admin {
+	margin-top: 98px;
+
+}
+
+
+.footer-barang {
+/*	background-color: #f8f9fa;*/
+	background-color: #FFFFFF;
+    text-align: center;
+    padding: 10px;
+    position: sticky;
+    bottom: 0;
+    width: 100%;
+    color: #6A68DE;
+
+}
+
+.button-tambah {
+	margin-top: 20px;
+	margin-bottom: 10px;
+	background-color: #E96868;
+	color: #FFFFFF;
+	font-size: 14px;
+}
+
+
+.t-tambah {
+	font-size: 16px;
+	font-weight: 600;
+
+}
+
+.btn-hijau {
+	background-color: #49D74F;
+	color: #FFFFFF;
+}
+
+.btn-merah {
+	background-color: #E96868;
+	color: #FFFFFF;
+}
+
+.pgn {
+	color: #6A68DE;
+}
+
+.button-laporan {
+	
+	background-color: #6A68DE;
+	color: #FFFFFF;
+	
+}
+
+ .custom-table-dark {
+    background-color: #6A68DE;
+    color: white; /* Untuk memberi warna teks yang kontras */
+  }
+
+.custom-button {
+	background-color: #6A68DE;
+	color: #FFFFFF;
+}
+
+.btn-ungu {
+	background-color: #6A68DE;
+	color: #FFFFFF;
+}
+.btn-ungu:hover {
+    color: #FFFFFF; /* Warna teks saat tombol dihover */
+}
+
+.button-keluar:hover {
+	color: #E96868;
+	border: none;
+}
+.button-tambah:hover {
+	color: #FFFFFF;
+}
+.button-laporan:hover {
+	color: #FFFFFF;
+}
+.custom-button:hover {
+    color: #FFFFFF; /* Warna teks saat tombol dihover */
+}
+.btn-hijau:hover {
+	 color: #FFFFFF; /* Warna teks saat tombol dihover */
+}
+
+.btn-merah:hover {
+	 color: #FFFFFF; /* Warna teks saat tombol dihover */
+}
+
+.pagination .page-item.active .page-link {
+    background-color: #6A68DE; 
+    border-color: #6A68DE;
+    color: #fff; 
+}
+
+.pagination .page-link {
+    color: #6A68DE;
+}
+
+.pagination .page-item.disabled .page-link {
+    color: #6A68DE; 
+}
+
+.m-header {
+	background-color: #6A68DE; 
+    color: #fff; 
+}
+
